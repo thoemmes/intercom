@@ -50,3 +50,8 @@ type Duplex = {
     talk: Talk
     listen: Listen
 }
+
+type CrossPoint = {
+    source: Source
+    dst: Destination
+}
